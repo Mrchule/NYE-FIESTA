@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+     /* Optional: Max width for large screens */
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* height:; */
+    flex-wrap: wrap; /* Ensures that content wraps on smaller screens */
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  .stage {
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    height: 50%;
+    font-size: xx-large;
+  }
+  
+  .gold {
+    background-color: #f5c42f; /* Gold */
+    height: 20%;
+  }
+  
+  .diamond {
+    background-color: #49b8e2; /* Diamond Blue */
+    height: 20%;
+  }
+  
+  .platinum {
+    background-color: #4a90e2; /* Platinum Blue */
+    height: 20%;
+  }
+  
+  .silver {
+    background-color: #d1c6f1; /* Silver */
+    height: 20%;
+  }
+
+  
