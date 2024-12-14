@@ -5,6 +5,7 @@ html {
    height: 100%;
    overflow-x: hidden;
    scroll-behavior: smooth;
+   font-family: Arial, Helvetica, sans-serif;
 }
 #video-background {
    position: fixed;
@@ -14,7 +15,7 @@ html {
    height: 70%;
    object-fit: cover;
    z-index: -1;
-   filter: blur(4px);
+   filter: blur(2px);
 }
 
 .content-overlay {
@@ -34,7 +35,10 @@ html {
 .section {
    padding: 100px 20px;
 }
-
+.x{
+   border-radius: 50%;
+   object-fit: cover;
+}
 #home {
    height: 70vh;
    display: flex;
@@ -45,10 +49,14 @@ html {
 #home2{
    /* border:2px solid red; */
    padding: 0;
-   backdrop-filter: blur(40px);
-   font-weight: 800;
+   backdrop-filter: blur(50px);
+   /* font-weight: 800; */
    font-size: large;
-   font-family: 'Times New Roman', Times, serif;
+   border-radius: 5%;
+   padding: 1rem;
+   font-family:Arial, Helvetica, sans-serif;
+   text-transform:capitalize;
+   letter-spacing:2px;
 }
 
 .navbar {
@@ -71,14 +79,14 @@ html {
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    margin-bottom: 20px;
 }
-
 #about .poster {
-   width: 100%;
-   max-width: 300px;
+   width: 100vw;
+   max-width:400px;
 }
 
 #about .about-content {
    margin-left: 20px;
+   color: white;
 }
 
 .pass-card {
@@ -130,6 +138,8 @@ html {
    #about .poster {
        margin: 0 auto;
        display: block;
+         width: 100vw;
+         max-width:100%;
    }
 
    .artist-card {
